@@ -1,0 +1,521 @@
+@keyframes sway {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes rotate {
+  0%, 100% {
+    transform: rotate(3deg);
+  }
+
+  50% {
+    transform: rotate(-3deg);
+  }
+}
+
+@keyframes rotate2 {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@keyframes sway2 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(50px);
+  }
+}
+
+@keyframes pulse {
+  0%, 100%{
+    opacity: 100%;
+  }
+  50%{
+    opacity: 50%;
+  }
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #01131f;
+
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  top: 0;
+  right: 0;
+  width: 2rem;
+  margin: .5rem;
+}
+
+#para-container {
+  z-index: 0;
+  position: relative;
+  width: 100vw;
+  overflow-y: hidden;
+  background: linear-gradient(to bottom, #fee9bd 0%, #fff3de 30%);
+}
+
+.nameplate {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  padding: 2rem;
+  position: relative;
+  z-index: 5;
+  width: 50rem;
+  margin-top: 0;
+}
+
+.nameplate h1, h2, h3 {
+  font-family: "Nunito Sans", sans-serif;
+  color: #01131f;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  /*text-shadow: 2px 2px 5px rgba(0, 0, 0, .7);*/
+}
+
+.nameplate h1 {
+  margin-top: 8rem;
+  font-weight: 300;
+  font-size: 7rem;
+  line-height: 7rem;
+}
+
+.nameplate h2 {
+  font-weight: 900;
+  font-size: 5.7rem;
+  line-height: 5.7rem;
+}
+
+.nameplate h3 {
+  font-weight: 100;
+  font-size: 2rem;
+  line-height: 5rem;
+}
+
+#fg {
+  bottom: 0;
+  position: absolute;
+}
+
+.layer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  /*will-change: transform;*/
+}
+
+#scroll-indicator{
+  animation-timing-function: ease-in-out;
+  animation-name: pulse;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 5rem;
+  height: 5rem;
+  bottom: 5rem;
+}
+
+.cloud {
+  width: 300px;
+  bottom: auto;
+}
+
+.small {
+  width: 100px;
+}
+
+#cloud1 {
+  animation-timing-function: ease-in-out;
+  animation-name: sway2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 50%;
+  top: 150px;
+}
+
+#cloud2 {
+  animation-timing-function: ease-in-out;
+  animation-name: sway2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 5%;
+  top: 100px;
+}
+
+#cloud3 {
+  animation-timing-function: ease-in-out;
+  animation-name: sway;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  left: 75%;
+  top: 50px;
+  width: 150px;
+}
+
+#bird1 {
+  display: none;
+  animation-timing-function: ease-in-out;
+  animation-name: rotate;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+#bird2 {
+  display: none;
+  animation-timing-function: ease-in-out;
+  animation-name: rotate2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+.bar{
+  display:flex;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  background: #01131fd2;
+  padding: 10px;
+  z-index: 10;
+}
+
+.bar a{
+  padding-left: .5rem;
+  padding-right: .5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+/*#navbar {
+  background-color: #01131f;
+  color: white;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 5;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+#navbar li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  color: white;
+}*/
+
+
+
+/*#navbar li a {
+  border-radius: 5px;
+  border-left: 5px solid #3380FF;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  margin-bottom: .5rem;
+  width: 9rem;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+  padding: 0.1rem;
+  background-color: #000;
+  line-height: 2.5rem;
+  text-align: center;
+  position: relative;
+  font-size: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-style: ;
+  color: white;
+  transition: all .35s;
+}
+*/
+
+/*a span {
+  position: relative;
+  z-index: 2;
+}*/
+/*
+#navbar li a:after {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #3380FF;
+  transition: all .35s;
+}
+
+#navbar li a:hover {
+  color: #fff;
+}
+
+#navbar li a:hover:after {
+  width: 100%;
+}
+*/
+#container{
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+#sidebar{
+    border-radius: 5px;
+    z-index: 2;
+    background-color: #01131f;
+    text-align: center;
+    order: 1;
+    min-width: 12rem;
+    flex-grow: 1;
+    margin-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 1.5rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+
+#sidebar h2{
+  font-size: 1.1rem;
+  color: #feeac3;
+  text-shadow: none;
+  margin-bottom: .5rem;
+}
+
+#sidebar p{
+  font-size: 0.9rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+#sidebar span{
+  font-weight: 800;
+}
+
+#sidebar img{
+  border-radius: 10rem;
+  margin-bottom: 1rem;
+}
+
+#bodycard{
+    border-radius: 5px;
+    z-index: 2;
+    background-color: #01131f;
+    flex-grow: 3;
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
+    padding: 4rem;
+    max-height: 20%;
+}
+
+#bodycard h2{
+  font-size: 1.1rem;
+  color: #feeac3;
+  text-shadow: none;
+  margin-bottom: .5rem;
+}
+
+#bodycard p{
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-indent: 1rem;
+}
+
+#bodycard a{
+  font-size: 1.1rem;
+  text-decoration: underline;
+  color: #feeac3;
+}
+
+#bodycard span{
+  font-weight: 800;
+}
+
+#body-container {
+  margin-top: -2px;
+  padding-top: 10rem;
+  position: relative;
+  background: linear-gradient(to bottom, #033f63 0%, #01131f 20%);
+}
+
+#subtitle{
+  text-align: center;
+}
+
+#text-card {
+  padding-top: 0rem;
+  margin: auto;
+  align-content: center;
+  position: relative;
+  width: 50vw;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+#text-card h1{
+  padding-top: 5rem;
+}
+
+a{
+  text-decoration: none;
+}
+
+.body-image{
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  border-radius: 5px;
+}
+
+p {
+  color: white;
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  padding: none;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  padding: none;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.link-card{
+  display: flex;
+  flex: 1 0 45%;
+  margin: 1%;
+  border-radius: 5px;
+  overflow:hidden;
+  transition-property: background-color, border, color;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
+  background-color: #fff;
+  /*border: 2px solid #fff; */
+}
+
+.link-text{
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  color: black;
+}
+
+.link-text p{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  width: 100%;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 5rem;
+}
+
+
+.link-card:hover{
+  /*animation-timing-function: ease-in-out;
+  animation-name: hover;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;*/
+  transition-property: background-color, border, color;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
+  background-color: #aaa;
+  /*border: 2px solid #aaa;*/
+}
+
+
+.link-image{
+  width: 100%;
+}
+
+
+/*.progress-container {
+        display: hidden;
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        height: 8px;
+        background: #FFF;
+}
+
+    .progress-bar {
+        display: hidden;
+        z-index: 2;
+        position:fixed;
+        height: 8px;
+        background: #3399FF;
+        width: 0%;
+    }*/
