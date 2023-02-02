@@ -89,3 +89,15 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #3380ff }";
   document.body.appendChild(css);
 };
+
+const card = document.querySelector("#description-box")
+const link = document.querySelector('.link')
+
+card.addEventListener("click", handleClick)
+
+function handleClick(event) {
+  const isTextSelected = window.getSelection().toString();
+  if (!isTextSelected) {
+    link.click();
+  }
+}

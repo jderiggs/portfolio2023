@@ -448,15 +448,30 @@ h1 {
   border-radius: 10px;
   overflow: hidden;
   background-color: #033f63;
-  padding-right:1rem;
+  cursor: pointer;
+  transition-property: background-color, border, color, margin-top, margin-bottom;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
+}
+
+#description-box:hover{
+  transition-property: background-color, border, color, margin-top, margin-bottom;
+  margin-top: -.5rem;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
+  background-color: #28666e;
+  margin-bottom: .5rem;
 }
 
 .body-image{
   display: flex;
+  flex-shrink: 0;
+  flex-grow: 3;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
   width: 50%;
+  min-width: 50%;
   box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
@@ -465,8 +480,9 @@ h1 {
   display: flex;
   flex-flow: column;
   flex-wrap: wrap-reverse;
-  justify-content: space-evenly;
-  flex-shrink: 2;
+  justify-content: center;
+  flex-shrink: 3;
+  padding-right:1.5rem;
 }
 
 #description-text h1, h2, h3, p{
@@ -478,7 +494,12 @@ h1 {
 }
 
 #description-text h1{
+  padding-top: 0;
   margin-top: 1rem;
+}
+
+#description-text h2{
+  font-size: 1.2rem;
 }
 
 #description-text p{
@@ -486,20 +507,9 @@ h1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   text-indent: .5rem;
-  margin-top: `1rem;
+  margin-top: .5rem;
   margin-left: 2.5rem;
-}
-
-#description-text a{
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
-  color: white;
-  width:6rem;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: -1rem;
-  margin-top: -1rem;
+  margin-bottom: 1.5rem;
 }
 
 button{
@@ -592,9 +602,15 @@ button{
         width: 0%;
     }*/
 
+@media only screen and (max-width: 1275px) {
+  .description-box{
+    flex-wrap: wrap;
+  }
+
 @media only screen and (max-width: 600px) {
   #para-container {
     height: 20vh;
   }
 
+}
 }
