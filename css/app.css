@@ -79,6 +79,7 @@ body {
   z-index: 0;
   position: relative;
   width: 100vw;
+  height: 100vw;
   overflow-y: hidden;
   background: linear-gradient(to bottom, #fee9bd 0%, #fff3de 30%);
 }
@@ -117,12 +118,18 @@ body {
   font-weight: 900;
   font-size: 5.7rem;
   line-height: 5.7rem;
+  color: #01131f;
+  margin: 0;
+  text-align: center;
 }
 
 .nameplate h3 {
   font-weight: 100;
   font-size: 2rem;
   line-height: 5rem;
+  color: #01131f;
+  margin: 0;
+  text-align: center;
 }
 
 #fg {
@@ -401,12 +408,11 @@ body {
   margin: auto;
   align-content: center;
   position: relative;
-  width: 50vw;
+  width: 75vw;
   padding-bottom: 5rem;
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
 
 #text-card h1{
   padding-top: 5rem;
@@ -414,17 +420,6 @@ body {
 
 a{
   text-decoration: none;
-}
-
-.body-image{
-  display: block;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 50%;
-  border-radius: 5px;
 }
 
 p {
@@ -443,6 +438,84 @@ h1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 900;
   padding: none;
+}
+
+#description-box{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #033f63;
+  padding-right:1rem;
+}
+
+.body-image{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 50%;
+  box-shadow: 2px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#description-text{
+  display: flex;
+  flex-flow: column;
+  flex-wrap: wrap-reverse;
+  justify-content: space-evenly;
+  flex-shrink: 2;
+}
+
+#description-text h1, h2, h3, p{
+  color: white;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  margin-left: 2rem;
+}
+
+#description-text h1{
+  margin-top: 1rem;
+}
+
+#description-text p{
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  text-indent: .5rem;
+  margin-top: `1rem;
+  margin-left: 2.5rem;
+}
+
+#description-text a{
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  color: white;
+  width:6rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -1rem;
+  margin-top: -1rem;
+}
+
+button{
+  background-color: #3380ff;
+  color: white;
+  width:6rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .card-container {
@@ -501,7 +574,6 @@ h1 {
   width: 100%;
 }
 
-
 /*.progress-container {
         display: hidden;
         z-index: 2;
@@ -519,3 +591,10 @@ h1 {
         background: #3399FF;
         width: 0%;
     }*/
+
+@media only screen and (max-width: 600px) {
+  #para-container {
+    height: 20vh;
+  }
+
+}
