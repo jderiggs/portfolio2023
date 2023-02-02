@@ -316,46 +316,6 @@ body {
   align-items: flex-start;
 }
 
-#sidebar{
-    border-radius: 5px;
-    z-index: 2;
-    background-color: #01131f;
-    text-align: center;
-    order: 1;
-    min-width: 12rem;
-    flex-grow: 1;
-    margin-top: 5rem;
-    margin-left: 3rem;
-    margin-right: 1.5rem;
-    padding: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    overflow: hidden;
-}
-
-#sidebar h2{
-  font-size: 1.1rem;
-  color: #feeac3;
-  text-shadow: none;
-  margin-bottom: .5rem;
-}
-
-#sidebar p{
-  font-size: 0.9rem;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: 600;
-  color: white;
-}
-
-#sidebar span{
-  font-weight: 800;
-}
-
-#sidebar img{
-  border-radius: 10rem;
-  margin-bottom: 1rem;
-}
-
 #bodycard{
     border-radius: 5px;
     z-index: 2;
@@ -366,6 +326,16 @@ body {
     margin-right: 3rem;
     padding: 4rem;
     max-height: 20%;
+}
+
+#bodycard img{
+  display: flex;
+  width: 50%;
+  min-width: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 #bodycard h2{
@@ -456,6 +426,29 @@ h1 {
 }
 
 #description-box:hover{
+  transition-property: background-color, border, color, margin-top, margin-bottom;
+  margin-top: -.5rem;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
+  background-color: #28666e;
+  margin-bottom: .5rem;
+}
+
+#description-box2{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #033f63;
+  cursor: pointer;
+  transition-property: background-color, border, color, margin-top, margin-bottom;
+  transition-duration: .25s;
+  transition-timing-function: ease-in-out;
+}
+
+#description-box2:hover{
   transition-property: background-color, border, color, margin-top, margin-bottom;
   margin-top: -.5rem;
   transition-duration: .25s;
@@ -583,6 +576,56 @@ button{
 
 .link-image{
   width: 100%;
+}
+
+#sidebar{
+  border-radius: 5px;
+  z-index: 2;
+  background-color: #01131f;
+  text-align: center;
+  order: 1;
+  min-width: 12rem;
+  flex-grow: 1;
+  margin-top: 5rem;
+  margin-left: 3rem;
+  margin-right: 1.5rem;
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+#sidebar h1, h2, h3, p{
+  margin-left: 0;
+  text-align: center;
+}
+
+#sidebar h2{
+font-size: 1.1rem;
+color: #feeac3;
+text-shadow: none;
+margin-bottom: .5rem;
+}
+
+#sidebar p{
+font-size: 0.9rem;
+font-family: "Nunito Sans", sans-serif;
+font-weight: 600;
+color: white;
+}
+
+#sidebar span{
+font-weight: 800;
+text-align: center;
+}
+
+#sidebar img{
+max-width: 50px;
+}
+
+#sidebar-icon-text{
+margin-bottom: 1rem;
+text-align: center;
 }
 
 /*.progress-container {

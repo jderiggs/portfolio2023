@@ -91,7 +91,9 @@ window.onload = function() {
 };
 
 const card = document.querySelector("#description-box")
+const card2 = document.querySelector("#description-box2")
 const link = document.querySelector('.link')
+const link2 = document.querySelector('.link2')
 
 card.addEventListener("click", handleClick)
 
@@ -99,5 +101,14 @@ function handleClick(event) {
   const isTextSelected = window.getSelection().toString();
   if (!isTextSelected) {
     link.click();
+  }
+}
+
+card2.addEventListener("click", handleClick2)
+
+function handleClick2(event) {
+  const isTextSelected = window.getSelection().toString();
+  if (!isTextSelected) {
+    link2.click();
   }
 }
