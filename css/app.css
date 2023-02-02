@@ -81,6 +81,7 @@ body {
   width: 100vw;
   height: 100vw;
   overflow-y: hidden;
+  overflow-x: hidden;
   background: linear-gradient(to bottom, #fee9bd 0%, #fff3de 30%);
 }
 
@@ -603,7 +604,7 @@ button{
     }*/
 
 @media only screen and (max-width: 1275px) {
-  .description-box{
+  #description-box{
     flex-wrap: wrap;
   }
 
