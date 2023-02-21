@@ -351,7 +351,7 @@ h1 {
     max-height: 20%;
 }
 
-#bodycard img{
+#bodycard .thumbnail{
   display: flex;
   width: 50%;
   min-width: 15rem;
@@ -557,15 +557,14 @@ h1 {
 .imagewrap{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 50%;
+  /* flex-wrap: wrap; */
+  /* width: 50%; */
   justify-content: center;
-  align-items: center;
-  align-content: center;
 }
 
-.imagewrap img{
-  margin: 0;
+.renders{
+  max-width: 250px;
+  margin-left: 2rem;
 }
 
 button{
