@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Joshua De Riggs' Portfolio</title>
+  <meta name="theme-color" content="#000000">
+  <link rel="stylesheet" href="css/app.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+  <style>
+  </style>
+</head>
+
+<body>
+  <header>
+  </header>
+  <div id="wrapper">
+    <div class="bar">
+      <div class="navlink"><a href="index.html">Home</a></div>
+      <div class="navlink"><a href="index.html#works">Works</a></div>
+      <div class="navlink"><a href="about.html">About</a></div>
+      <div class="navlink"><a href="about.html#contact">Contact</a></div>
+    </div>
+    <!--<div class="nameplate">
+      <h1>Joshua</h1>
+      <h2>De Riggs</h2>
+      <h3>
+        <span class="txt-rotate" data-period="2000" data-rotate='["is looking for a position.", "created this website!","is studying at sheridan college."]'></span>
+      </h3>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/joshua-deriggs" target="_blank" rel="noopener" alt="LinkedIn"><img class="icons" src="img/icons/logo-linkedin.svg" alt="LinkedIn" /></a></li>
+        <a href="mailto:josh.deriggs@gmail.com?subject=Mail%20from%20Website" rel="noopener" alt="E-mail address"><img class="icons" src="img/icons/logo-email.svg" alt="E-mail address" /></a></li>
+      </div> -->
+    </div>
+
+    <div id="container">
+      <div id="sidebar">
+        <h2>Info:</h2>
+        <p><span>Client</span>: Hobby</p>
+        <p><span>Type</span>: UI/UX & 3D Texturing</p>
+        <br>
+        <h2>Tools Used:</h2>
+        <!--<div id="sidebar-card">
+          <img src="img/icons/tools/figma.png" alt="" id="sidebar-icon"><p id="sidebar-icon-text">Figma</p>
+        </div>-->
+        <div id="sidebar-card">
+          <img src="img/icons/tools/substance-3d-designer.png" alt="" id="sidebar-icon"><p id="sidebar-icon-text">Adobe Substance 3D Designer</p>
+        </div>
+        <!--<div id="sidebar-card">
+          <img src="img/icons/tools/Adobe_Illustrator_CC_icon.svg" alt="" id="sidebar-icon"><p id="sidebar-icon-text">Adobe Illustrator</p>
+        </div>
+          <img src="img/icons/tools/Adobe_Photoshop_CC_icon.svg" alt="" id="sidebar-icon"><p id="sidebar-icon-text">Adobe Photoshop</p>
+          -->
+        <div id="sidebar-card">
+          <img src="img/icons/tools/tb4_light.png" alt="" id="sidebar-icon"><p id="sidebar-icon-text">Marmoset Toolbag 4</p>
+        </div>
+      </div>
+
+      <div id="bodycard">
+        <h1>Polytools</h1>
+        <img src="img/polytools/thumbnail.webp" alt="Thumbnail icon showing a mobile app called PolyTools.">
+        <p> Polytools is a low-level design prototype, and UI/UX solution for a mobile application storefront.
+          It is involved with the display, customization and sale of procedural parameter driven textures for 3D applications.
+          Since they are fully procedural, this allows users to customize values such as colour and details within the textures by imputing numerical values.
+          This can be used for rendering, game design or any other 3D application that renders textures. The strength in having everything procedurally generated in Substance Designer lies in its ability to quickly iterate on the appearance of materials.
+        </p>
+        <a href="https://www.figma.com/proto/kG43fX4eOocus7R8VHsEcH/Polytools?page-id=0%3A1&node-id=2%3A3&viewport=-813%2C484%2C0.35&scaling=min-zoom&starting-point-node-id=2%3A3" target="_blank" rel="noopener noreferrer">The Figma prototype can be accessed here.</a>
+        <h3>Problem Statement</h3>
+        <span><div class="quotes">“</div>How may we help 3D artists find and customize their ideal textures for content creation, without prior procedural texturing knowledge?<div class="quotes">”</div></span>
+        <h3>Personas</h3>
+        <p>The personas follow two individuals who are familiar with applying textures to models,
+          but want methods to make the generation of textures easier for their respective workflows.
+        </p>
+        <img src="img/polytools/misc/persona-1.png" alt="The first persona, Samuel. A 3D modelling professional.">
+        <img src="img/polytools/misc/persona-2.png" alt="The second persona, Lucy. An indie game developer.">
+        <h3>Combined Goals</h3>
+        <ul>
+          <li>Faster texturing workflow</li>
+          <li>Cheap, inexpensive solution</li>
+          <li>Clean, easy to use interface</li>
+          <li>A large library of assets</li>
+          <li>The ability to easily customize textures</li>
+        </ul>
+        <h3>Scenario</h3>
+        <p>Lucy is on a time crunch to find stylized textures for her upcoming video game. 
+          However, most outlets are either too expensive or dont feature enough customizability for her needs. 
+          She doesn't want to spend any time editing them in photo manipulation software, and would rather buy one that's ready.</p>
+          <img src="img/polytools/misc/user-journey-map.png" alt="User Journey Map following Lucy's experience in signing in and buying a material for use.">
+
+        <h3>Empathy Map</h3>
+        <p>Prospective emotions of users based on possible use cases for the application. 
+          Designed as a remedy to those who don't have enough time to learn procedural texturing or just want high quality scalable textures at any point in their process.
+          The app would have to be easy to approach, inexpensive and highly customizable to meet a wide swathe of workflows.
+        </p>
+        <img src="img/polytools/misc/empathy-map.png" alt="An empathy map detailing prospective emotions of would be users.">
+        <h3>Customization is key</h3>
+        <p>The end-user can toggle between light and dark mode, as well as spherical and plane display modes.
+          This will ensure that no matter what the texture looks like, they will be able to preview it with proper contrast and brightness.
+          The parameter controls are exposed values from Substance Designer at the discretion of the texture artist. 
+          This allows users to adjust these values on the fly without needing to learn a new application like Substance Designer. 
+          Since these parameters can be any value from Substance Designer, the potential use cases are limited only by the texture artist’s imagination. 
+          Keeping this process abstract and easy to approach was the main goal of this project.
+        </p>
+        <img src="img/polytools/misc/ui-directions.webp" alt="A diagram showing directions in the customization UI.">
+        <h3>Categorical</h3>
+        <p>Items on the website are sorted categorically, allowing users to find what they’re looking for quickly. 
+          There is also a search function in the sidebar, for power users who know exactly what they’re looking for.</p>
+        <img src="img/polytools/misc/ui-directions2.webp" alt="A diagram showing directions in the category UI.">
+        <h3>Subscription Optional</h3>
+        <p>Users are able to choose whether they would prefer to pay for each texture individually, or have access to the entire library on a subscription basis. 
+          This gives power to those who would rather a one-time payment and permanent download access to the file they paid for.</p>
+        <img src="img/polytools/misc/ui-directions3.webp" alt="A diagram showing directions in the cart UI.">
+        <h3>Reflection</h3>
+        <p>This project was born from a desire to merge both my passions for UI/UX Design and 3D Design into one cohesive concept. 
+          All of the materials shown here were created by myself in Substance Designer, and served as a platform for me to show some of the work that I’ve been doing in that field. 
+          I’ve reached out to industry professionals to get opinions and critiques on how they would like an app centered around this to function, and by that merit it was a great learning exercise for both skillsets.</p>
+          <a href="#">Another work page focusing on my 3D Textures can be found here.</a>
+        </div>
+    </div>
+
+    <div id="para-container" alt="" style="height: 100vh">
+      <!--Parallax Container -->
+      <img id="cloud1" class="layer cloud small" data-offset="0.7" src="img/cloud.svg" alt="" />
+      <img id="cloud2" class="layer cloud" data-offset="0.3" src="img/cloud.svg" alt="" />
+      <img id="cloud3" class="layer cloud small" data-offset="0.4" src="img/cloud.svg" alt="" />
+      <img id="layer6" class="layer" data-offset="1" src="img/bg6.svg" alt="" />
+      <img id="layer5" class="layer" data-offset="0.9" src="img/bg5.svg" alt="" />
+      <img id="layer4" class="layer" data-offset="0.8" src="img/bg4.svg" alt="" />
+      <img id="layer3" class="layer" data-offset="0.7" src="img/bg3.svg" alt="" />
+      <img id="layer2" class="layer" data-offset="0.5" src="img/bg2.svg" alt="" />
+      <!--<img id="scroll-indicator" class="layer" data-offset="0.25" src="img/scroll.svg" alt="" />
+      <img id="bird1" class="layer" data-offset="0.4" src="img/bird1.svg" alt="" />
+      <img id="bird2" class="layer" data-offset="0.2" src="img/bird2.svg" alt="" />-->
+      <img id="fg" src="img/bg1.svg" alt="" />
+    </div>
+    <div id="body-container" style="background: linear-gradient(to bottom, #033f63 0%, #01131f 60%); height:25rem;">
+      <div id="text-card">
+      </div>
+    </div>
+    <div class="footer">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+    <script src="js/app.js"></script>
+  </div>
+</body>
+</html>
