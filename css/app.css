@@ -554,6 +554,20 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+.imagewrap{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.imagewrap img{
+  margin: 0;
+}
+
 button{
   background-color: #3380ff;
   color: white;
