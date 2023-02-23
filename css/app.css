@@ -318,7 +318,6 @@ p {
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  padding: none;
 }
 
 h1 {
@@ -387,9 +386,9 @@ h1 {
   margin-bottom: .5rem;
   text-transform: capitalize;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   text-align: left;
-  width: 75%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -416,7 +415,7 @@ h1 {
   font-size: 7rem;
 }
 
-#bodycard p, li{
+#bodycard > p, li{
   font-size: 1.1rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
@@ -424,7 +423,7 @@ h1 {
   text-indent: 1rem;
   text-align: left;
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -558,13 +557,22 @@ h1 {
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
-  /* width: 50%; */
   justify-content: center;
+}
+
+.imagewrap p{
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  color: hsla(0, 0%, 100%, 0.8);
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 .renders{
   max-width: 250px;
-  margin-left: 2rem;
+  max-height: 250px;
 }
 
 button{
