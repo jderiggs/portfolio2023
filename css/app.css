@@ -59,7 +59,7 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  background-color: #01131f;
+  background-color: #f5fcff;
 
 }
 
@@ -82,7 +82,7 @@ body {
   height: 100vw;
   overflow-y: hidden;
   overflow-x: hidden;
-  background: linear-gradient(to bottom, #fee9bd 0%, #fff3de 30%);
+  background: linear-gradient(to bottom, #a0d4ee 0%, #d2eaf6 50%);
 }
 
 .nameplate {
@@ -218,7 +218,8 @@ body {
   position: fixed;
   align-items: center;
   width: 100%;
-  background: #01131fd2;
+  background: #f5fcffc2;
+  backdrop-filter: blur(5px);
   padding: 10px;
   z-index: 10;
 }
@@ -229,8 +230,8 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 300;
-  color: white;
+  font-weight: 400;
+  color: #01131f;
 }
 
 /*#navbar {
@@ -314,14 +315,14 @@ a{
 }
 
 p {
-  color: white;
+  color: #01131f;
   margin: 0;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
 }
 
 h1 {
-  color: white;
+  color: #01131f;
   text-align: center;
   margin: 0;
   margin-bottom: 2rem;
@@ -341,7 +342,7 @@ h1 {
 #bodycard{
     border-radius: 5px;
     z-index: 2;
-    background-color: #01131f;
+    background-color: #f5fcff;
     flex-grow: 3;
     margin-top: 5rem;
     margin-left: 1.5rem;
@@ -367,7 +368,7 @@ h1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 600;
   font-size: 1.7rem;
-  color: #ffffff;
+  color: #01131f;
   text-shadow: none;
   margin-bottom: .5rem;
   text-transform: capitalize;
@@ -381,7 +382,7 @@ h1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
-  color: #ffffff;
+  color: #01131f;
   text-shadow: none;
   margin-bottom: .5rem;
   text-transform: capitalize;
@@ -398,7 +399,7 @@ h1 {
   font-size: 1.4rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
-  color: white;
+  color: #01131f;
   text-align: center;
   align-items: center;
   align-content: center;
@@ -419,7 +420,7 @@ h1 {
   font-size: 1.1rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
-  color: white;
+  color: #01131f;
   text-indent: 1rem;
   text-align: left;
   margin-top: 1rem;
@@ -442,7 +443,7 @@ h1 {
 #bodycard a{
   display: flex;
   font-size: 1.3rem;
-  color: #feeac3;
+  color: #2f95c8;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
   text-align: center;
@@ -456,7 +457,7 @@ h1 {
   margin-top: -2px;
   padding-top: 10rem;
   position: relative;
-  background: linear-gradient(to bottom, #033f63 0%, #01131f 20%);
+  background: linear-gradient(to bottom, #f5fcff 0%, #f5fcff 20%);
 }
 
 #subtitle{
@@ -485,11 +486,12 @@ h1 {
   flex-wrap: nowrap;
   border-radius: 10px;
   overflow: hidden;
-  background-color: #033f63;
+  background-color: white;
   cursor: pointer;
   transition-property: background-color, border, color, margin-top, margin-bottom;
   transition-duration: .25s;
   transition-timing-function: ease-in-out;
+  box-shadow: 2.5px 2.5px 5px 1px #ffeef8c9;
 }
 
 #description-box:hover,#description-box2:hover, #description-box3:hover{
@@ -497,7 +499,7 @@ h1 {
   margin-top: -.5rem;
   transition-duration: .25s;
   transition-timing-function: ease-in-out;
-  background-color: #28666e;
+  background-color: #d2eaf6;
   margin-bottom: .5rem;
 }
 
@@ -524,7 +526,7 @@ h1 {
 }
 
 #description-text h1, h2, h3, p{
-  color: white;
+  color: #01131f;
   text-align: left;
   padding: 0;
   margin: 0;
@@ -616,7 +618,7 @@ button{
   text-decoration: none;
   padding-top: .5rem;
   padding-bottom: .5rem;
-  color: black;
+  color: #01131f;
 }
 
 .link-text p{
@@ -650,7 +652,7 @@ button{
 #sidebar{
   border-radius: 5px;
   z-index: 2;
-  background-color: #01131f;
+  background-color: #f5fcff;
   text-align: center;
   order: 1;
   min-width: 12rem;
@@ -671,7 +673,7 @@ button{
 
 #sidebar h2{
 font-size: 1.4rem;
-color: #feeac3;
+color: #2f95c8;
 text-shadow: none;
 margin-bottom: .5rem;
 text-transform: capitalize
@@ -683,7 +685,7 @@ margin-top: .5rem;
 font-size: 1.1rem;
 font-family: "Nunito Sans", sans-serif;
 font-weight: 300;
-color: white;
+color: #01131f;
 }
 
 #sidebar span{

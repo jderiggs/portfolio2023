@@ -1,21 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 156 311" style="enable-background:new 0 0 156 311;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#FFFFFF;stroke-width:17;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;}
-	.st2{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-linecap:round;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-miterlimit:10;}
-</style>
-<path class="st0" d="M92,202H64c-28.7,0-52-34.3-52-63V82c0-36.5,29.5-66,66-66h0c36.5,0,66,29.5,66,66v57
-	C144,167.7,120.7,202,92,202z"/>
-<g>
-	<path class="st1" d="M78,95L78,95c-7.7,0-14-6.3-14-14V67c0-7.7,6.3-14,14-14h0c7.7,0,14,6.3,14,14v14C92,88.7,85.7,95,78,95z"/>
-</g>
-<line class="st2" x1="78" y1="24" x2="77.5" y2="111.5"/>
-<line class="st3" x1="42" y1="112" x2="114" y2="112"/>
-<g>
-	<polyline class="st0" points="12,235.3 77.6,294 143.7,235.3 	"/>
-</g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 156 311" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <path d="M92,202L64,202C35.3,202 12,167.7 12,139L12,82C12,45.5 41.5,16 78,16C114.5,16 144,45.5 144,82L144,139C144,167.7 120.7,202 92,202Z" style="fill:none;fill-rule:nonzero;stroke:rgb(1,19,31);stroke-width:17px;"/>
+    <g>
+        <path d="M78,95C70.3,95 64,88.7 64,81L64,67C64,59.3 70.3,53 78,53C85.7,53 92,59.3 92,67L92,81C92,88.7 85.7,95 78,95Z" style="fill:rgb(1,19,31);fill-rule:nonzero;"/>
+    </g>
+    <path d="M78,24L77.5,111.5" style="fill:none;fill-rule:nonzero;stroke:rgb(1,19,31);stroke-width:7px;stroke-linecap:round;"/>
+    <path d="M42,112L114,112" style="fill:none;fill-rule:nonzero;stroke:rgb(1,19,31);stroke-width:7px;"/>
+    <g>
+        <path d="M12,235.3L77.6,294L143.7,235.3" style="fill:none;fill-rule:nonzero;stroke:rgb(1,19,31);stroke-width:17px;"/>
+    </g>
 </svg>
