@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 365 167.1"><defs><style>.cls-1{fill:#fffdf3;}</style></defs><title>cloud</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M365,131.6c0-17.72-16.65-32.41-38.41-35.07.07-1.13.11-2.27.11-3.43,0-32-26.79-58-59.85-58a61.92,61.92,0,0,0-14.65,1.76,78.77,78.77,0,0,0-133.66.44c-1.5-.12-3-.2-4.54-.2a56,56,0,0,0-54.23,42,39.69,39.69,0,0,0-17.27-4C19,75.1,0,95.7,0,121.1c0,25.23,18.76,45.7,42,46H320C344.9,166.88,365,151.08,365,131.6Z"/></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 365 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Layer_2">
+        <g id="Layer_1-2">
+            <path d="M365,131.6C365,113.88 348.35,99.19 326.59,96.53C326.66,95.4 326.7,94.26 326.7,93.1C326.7,61.1 299.91,35.1 266.85,35.1C261.914,35.101 256.996,35.692 252.2,36.86C237.801,13.949 212.568,0.004 185.507,0.004C158.263,0.004 132.885,14.138 118.54,37.3C117.04,37.18 115.54,37.1 114,37.1C88.543,37.096 66.134,54.451 59.77,79.1C54.389,76.482 48.484,75.114 42.5,75.1C19,75.1 0,95.7 0,121.1C0,146.33 18.76,166.8 42,167.1L320,167.1C344.9,166.88 365,151.08 365,131.6Z" style="fill:rgb(210,234,246);fill-rule:nonzero;"/>
+        </g>
+    </g>
+</svg>
