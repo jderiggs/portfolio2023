@@ -325,7 +325,7 @@ h1 {
   color: #01131f;
   text-align: center;
   margin: 0;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 900;
   padding: none;
@@ -361,6 +361,10 @@ h1 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-radius: 5px;
+}
+
+#bodycard h1{
+  margin-bottom: 3rem;
 }
 
 #bodycard h2{
@@ -424,7 +428,7 @@ h1 {
   text-indent: 1rem;
   text-align: left;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -479,7 +483,7 @@ h1 {
   padding-top: 5rem;
 }
 
-#description-box, #description-box2, #description-box3{
+#description-box, #description-box2, #description-box3, #description-box4{
   display: flex;
   flex-flow: row;
   justify-content: space-between;
@@ -494,7 +498,7 @@ h1 {
   box-shadow: 2.5px 2.5px 5px 1px #ffeef8c9;
 }
 
-#description-box:hover,#description-box2:hover, #description-box3:hover{
+#description-box:hover,#description-box2:hover, #description-box3:hover, #description-box4:hover{
   transition-property: background-color, border, color, margin-top, margin-bottom;
   margin-top: -.5rem;
   transition-duration: .25s;
@@ -560,6 +564,10 @@ h1 {
   flex-direction: row;
   /* flex-wrap: wrap; */
   justify-content: center;
+  background-color: #000000dc;
+  border-radius: 15px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .imagewrap p{
@@ -567,7 +575,7 @@ h1 {
   font-size: 1rem;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 100;
-  color: hsla(0, 0%, 100%, 0.8);
+  color: #ffffff;
   text-align: center;
   margin-bottom: 1rem;
 }

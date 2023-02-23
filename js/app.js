@@ -93,9 +93,11 @@ window.onload = function() {
 const card = document.querySelector("#description-box")
 const card2 = document.querySelector("#description-box2")
 const card3 = document.querySelector("#description-box3")
+const card4 = document.querySelector("#description-box4")
 const link = document.querySelector('.link')
 const link2 = document.querySelector('.link2')
 const link3 = document.querySelector('.link3')
+const link4 = document.querySelector('.link4')
 
 card.addEventListener("click", handleClick)
 
@@ -121,5 +123,14 @@ function handleClick3(event) {
   const isTextSelected = window.getSelection().toString();
   if (!isTextSelected) {
     link3.click();
+  }
+}
+
+card4.addEventListener("click", handleClick4)
+
+function handleClick4(event) {
+  const isTextSelected = window.getSelection().toString();
+  if (!isTextSelected) {
+    link4.click();
   }
 }
