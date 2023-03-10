@@ -99,7 +99,7 @@ body {
   margin-top: 0;
 }
 
-.nameplate h1, h2, h3 {
+.nameplate h1,.nameplate h2,.nameplate h3 {
   font-family: "Nunito Sans", sans-serif;
   color: #01131f;
   text-align: center;
@@ -119,16 +119,14 @@ body {
   font-weight: 900;
   font-size: 5.7rem;
   line-height: 5.7rem;
-  color: #01131f;
   margin: 0;
   text-align: center;
 }
 
 .nameplate h3 {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 2rem;
   line-height: 5rem;
-  color: #01131f;
   margin: 0;
   text-align: center;
 }
@@ -183,6 +181,7 @@ body {
 }
 
 .bio-text h1{
+  font-weight: 700;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -544,6 +543,7 @@ h1 {
   color: #2f95c8;
   text-shadow: none;
   text-transform: capitalize;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 #sidebar p{
@@ -640,6 +640,7 @@ h1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   font-size: 1.5rem;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 #description-text p{
