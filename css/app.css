@@ -178,6 +178,7 @@ body {
   padding: 2rem;
   border-radius: 10px;
   backdrop-filter: blur(5px);
+  height: 14rem;
 }
 
 .bio-text h1{
@@ -668,7 +669,7 @@ h1 {
   background-color: #3380ff;
   text-align: center;
   font-size: .9rem;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .tags p{
@@ -685,7 +686,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   background-color: #d2eaf6;
-  border-radius: 15px;
+  border-radius: 10px;
   padding-bottom: 1rem;
   padding-top: 1rem;
   width: 50%;
@@ -704,6 +705,11 @@ h1 {
 .renders{
   max-width: 250px;
   max-height: 250px;
+}
+
+.wireframes{
+  max-width: 250px;
+  margin: .5rem;
 }
 
 button{
