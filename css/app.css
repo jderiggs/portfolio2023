@@ -619,8 +619,10 @@ h1 {
   flex-wrap: wrap-reverse;
   justify-content: center;
   flex-shrink: 3;
-  padding-right:1.5rem;
+  padding-right: 2rem;
   margin-left: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
 }
 
 #description-text h1, #description-text h2, #description-text h3, #description-text p{
@@ -659,9 +661,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-top: 1rem;
   margin-bottom: 1rem;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .tagcontainer p{
